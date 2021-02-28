@@ -1,0 +1,7 @@
+.friendContainer{
+    display: flex;
+}
+.profile{
+    width: 70%;
+    margin-left: 100px;
+}

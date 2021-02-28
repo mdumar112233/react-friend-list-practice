@@ -1,15 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
 import { useEffect, useState } from 'react';
+import Header from './components/Header/Header';
+import FriendList from './components/friend-list/FriendList';
 
 function App() {
- 
+    const mainStyle= {
+      margin: 0,
+      padding: 0
+    }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo"alt="logo"/>
-        
-      </header>
+    <div style={mainStyle} className='main'>
+      <Header></Header>
+      <FriendList></FriendList>
     </div>
   );
 }
